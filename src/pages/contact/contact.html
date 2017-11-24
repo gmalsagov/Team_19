@@ -1,17 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Risk Assessment
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding>
+  
+  <button ion-button block icon-left (click) = "goToPatientRaPage()">
+    Patient
+  </button>
+
+  <button ion-button block icon-left (click) = "goToCarerRaPage()">
+   Carer or Relative
+  </button>
+  
+  <button ion-button block icon-left (click) = "goToFireRaPage()">
+    Fire Service
+  </button>
+
+  <button ion-button block icon-left (click) = "goToHealthRaPage()">
+    Healthcare Professional
+  </button>
+
 </ion-content>

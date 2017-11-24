@@ -1,11 +1,31 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Information on Falls
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <button ion-button block icon-left (click) = "goToCausesPage()">
+    Causes
+  </button>
+
+  <button ion-button block icon-left (click) = "goToConsequencesPage()">
+    Consequences
+  </button>
+  
+  <button ion-button block icon-left (click) = "goToPreventionPage()">
+    Prevention
+  </button>
+
+  <button ion-button block icon-left (click) = "goToHelpPage()">
+    Help & Support
+  </button>
+
+  <button ion-button block icon-left (click) = "goToChecklistPage()">
+      Checklist
+    </button>
 
 </ion-content>
